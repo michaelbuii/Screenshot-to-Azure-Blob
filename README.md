@@ -33,7 +33,7 @@ Sample usage for normal clipboard upload
 
 ### Setup with GreenShot
 Add a new external plugin to be the exe file
-
+<p align="center"> <img src ="images/readme.png"></p>
 ![](images/readme.png)
 
 Setup your arguments to pass like this
