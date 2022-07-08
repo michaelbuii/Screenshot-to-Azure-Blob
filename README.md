@@ -20,6 +20,9 @@ You will have to run azcopy and authenticate with your Azure tenant or optionall
 ### cwebp
 This is used to convert  the screenshots to webp. Created and maintained by google you can download it [here](https://developers.google.com/speed/webp/download)
 ### Parameters
+```powershell
+Param([Parameter(Mandatory=$true)][string[]] $imgName, $containerName, $storageName)
+```
 - imgName - sets the file name
 - container - the container name in the storage account (created if one doesn't exist)
 - storageName - storage account name in Azure
