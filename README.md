@@ -15,7 +15,7 @@ You can set hotkeys to run the script or compile the script into an exe with [PS
 ### Azcopy
 You need this to save the images to blob storage. Download [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10). To use the script in it's condition I added azcopy as a PATH environment variable. 
 
-You will have to run azcopy and authenticate with your Azure ID or optionally append a SAS token to the script. Documentation [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10)
+You will have to run azcopy and authenticate with your Azure tenant or optionally append a SAS token to the script. Documentation [here](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10)
 
 ### cwebp
 This is used to convert  the screenshots to webp. Created and maintained by google you can download it [here](https://developers.google.com/speed/webp/download)
