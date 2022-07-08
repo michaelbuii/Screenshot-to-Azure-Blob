@@ -30,15 +30,16 @@ Sample usage for normal clipboard upload
 
 ### Setup with GreenShot
 Add a new external plugin to be the exe file
-<p align="center">
+
 ![](images/readme.png)
-</p>
+
 Setup your arguments to pass like this
-<p align="center">
+
 ![](images/readme2.png)
-</p>
+
 Set up the destination to save to clipboard and then pass it on to the external plugin
-<p align="center">
+
 ![](images/readme3.png)
-</p>
+
+
 
