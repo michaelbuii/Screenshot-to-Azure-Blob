@@ -32,9 +32,13 @@ Sample usage for normal clipboard upload
 Add a new external plugin to be the exe file
 
 ![](images/readme.png)
+
 Setup your arguments to pass like this
 
 ![](images/readme2.png)
+
 Set up the destination to save to clipboard and then pass it on to the external plugin
 
 ![](images/readme3.png)
+
+
