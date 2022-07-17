@@ -20,6 +20,9 @@ You will have to run azcopy and authenticate with your Azure tenant or optionall
 ### cwebp
 This is used to convert  the screenshots to webp. Created and maintained by google you can download it [here](https://developers.google.com/speed/webp/download)
 ### Parameters
+```powershell
+Param([Parameter(Mandatory=$true)][string[]] $imgName, $containerName, $storageName)
+```
 - imgName - sets the file name
 - container - the container name in the storage account (created if one doesn't exist)
 - storageName - storage account name in Azure
@@ -30,16 +33,15 @@ Sample usage for normal clipboard upload
 
 ### Setup with GreenShot
 Add a new external plugin to be the exe file
+<p align="center"> <img src ="images/readme.png"></p>
 
-![](images/readme.png)
 
 Setup your arguments to pass like this
-
-![](images/readme2.png)
+<p align="center"> <img src ="images/readme2.png"></p>
 
 Set up the destination to save to clipboard and then pass it on to the external plugin
+<p align="center"> <img src ="images/readme3.png"></p>
 
-![](images/readme3.png)
 
 
 
