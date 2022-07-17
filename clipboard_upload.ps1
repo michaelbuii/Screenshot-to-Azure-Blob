@@ -3,7 +3,6 @@
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
 
 $currentDir = Get-Location
-Write-Host $currentDir
 Start-Sleep -Milliseconds 1000
 $clipboard = [System.Windows.Forms.Clipboard]::GetDataObject() 
 
@@ -17,7 +16,7 @@ if ($clipboard.ContainsImage()) {
   $img.Save("${currentDir}/${imgName}")
  
   azcopy copy $imgName $container
-  #remove-item $imgName
+  remove-item $imgName
   $sb.Append($container + $imgName)
 
   Set-Clipboard -Value  $sb
